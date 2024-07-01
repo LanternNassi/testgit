@@ -1,0 +1,42 @@
+.logo{
+  background-image: url('../images/WhatsApp\ Image\ 2024-06-28\ at\ 12.15.37_262deb2e.jpg');
+  width : 10vh;
+  height : 10vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.root{
+  width: 100vw;
+  min-height: 60vh;
+}
+
+.navbar{
+  height : 10vh;
+  width : 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navHeading{
+  display: flex;
+  height: 10vh;
+  width : 25vw;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.heading{
+  font-style: bold;
+}
+
+.links{
+  display: flex;
+  height : 10vh;
+  width : 55vw;
+  justify-content: space-around;
+  align-items: center;
+}

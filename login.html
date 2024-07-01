@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fund Vision Uganda: Login/Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>FUND VISION UGANDA</h1>
+    <p>Transforming Education in Uganda: A Grant Management System for SDG 4</p>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="impact.html">Our Impact</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="terms.html">Terms & Conditions</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="login.html">Login/Register (active)</a></li>
+        <li><a href="search.html">Search</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="login-register">
+      <h2>Login or Register</h2>
+
+      <div class="login-form">
+        <h3>Login</h3>
+        <form action="login_process.php" method="post"> <label for="username">Username:</label>
+          <input type="text" name="username" id="username" required>
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" required>
+          <button type="submit">Login</button>
+          <p><a href="#">Forgot Password?</a></p>
+        </form>
+      </div>
+
+      <div class="register-form">
+        <h3>Register</h3>
+        <form action="register_process.php" method="post"> <label for="user_type">User Type:</label>
+          <select name="user_type" id="user_type" required>
+            <option value="">Select User Type</option>
+            <option value="ngo">Non-Governmental Organization</option>
+            <option value="institution">Educational Institution</option>
+            <option value="fvu_admin">Fund Vision Uganda Admin</option> </select>
+          <label for="org_name">Organization Name (if applicable):</label>
+          <input type="text" name="org_name" id="org_name">
+          <label for="email">Email Address:</label>
+          <input type="email" name="email" id="email" required>
+          <label for="password_reg">Password:</label>
+          <input type="password" name="password_reg" id="password_reg" required>
+          <button type="submit">Register</button>
+        </form>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Fund Vision Uganda. All Rights Reserved.</p>
+    <a href="#contact">Contact Us</a>
+    <a href="#faq">FAQ</a>
+  </footer>
+</body>
+</html>

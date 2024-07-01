@@ -1,0 +1,81 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 1em 0;
+  }
+  
+  p {
+    margin: 0.5em 0;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0.5em 0;
+  }
+  body#contact {  /* Target the body element specifically for the contact page */
+    background-image: url("images\education.jpgath/to/your/image.jpg");
+    background-repeat: repeat;  /* Optional: Prevent image repetition */
+    background-position: full screen;  /* Optional: Center the image */
+    background-size: cover;       /* Ensure the image covers the entire area */
+  }
+  
+  
+  /* Header styles */
+  header {
+    background-color: #f5f5f5;
+    padding: 1em;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 1em;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 2em;
+  }
+  
+  section {
+    margin-bottom: 2em;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #f5f5f5;
+  }
+  
+
+  

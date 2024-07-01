@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fund Vision Uganda: Search Grants & Resources</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>FUND VISION UGANDA</h1>
+    <p>Transforming Education in Uganda: A Grant Management System for SDG 4</p>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="impact.html">Our Impact</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="terms.html">Terms & Conditions</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="login.html">Login/Register</a></li>
+        <li><a href="search.html">Search (active)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="search">
+      <h2>Search Grants & Resources</h2>
+      <p>Use the filters below to find grants and resources relevant to your needs.</p>
+
+      <form action="search_results.php" method="get">
+        <div class="search-filters">
+          <label for="keyword">Keyword:</label>
+          <input type="text" name="keyword" id="keyword" placeholder="e.g., Education Equity, Early Childhood Development">
+          <label for="sdg_target">SDG Target:</label>
+          <select name="sdg_target" id="sdg_target">
+            <option value="">All SDG Targets</option>
+            <option value="4.1">Ensure quality primary and secondary education for all</option>
+            <option value="4.5">Eliminate gender disparities in education and ensure equal access to all levels of education and vocational training for the vulnerable</option>
+            </select>
+          <label for="region">Region:</label>
+          <select name="region" id="region">
+            <option value="">All Regions</option>
+            <option value="central">Central Region</option>
+            <option value="eastern">Eastern Region</option>
+            </select>
+          <label for="grant_type">Grant Type (optional):</label>
+          <select name="grant_type" id="grant_type">
+            <option value="">All Grant Types</option>
+            <option value="seed_funding">Seed Funding</option>
+            <option value="capacity_building">Capacity Building</option>
+            </select>
+        </div>
+        <button type="submit">Search</button>
+      </form>
+
+      <p>**Search Tips:**</p>
+      <ul>
+        <li>Use broad keywords or phrases to get wider results.</li>
+        <li>Combine keywords with SDG targets and regions for more specific results.</li>
+        <li>You can search for specific grant types if applicable.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Fund Vision Uganda. All Rights Reserved.</p>
+    <a href="#contact">Contact Us</a>
+    <a href="#faq">FAQ</a>
+  </footer>
+</body>
+</html>
